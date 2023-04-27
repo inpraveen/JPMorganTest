@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E11D601829FA64F000477AA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11D601729FA64F000477AA4 /* ViewController.swift */; };
 		E1F0746C29FA546F002E7CFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F0746B29FA546F002E7CFE /* AppDelegate.swift */; };
 		E1F0746E29FA546F002E7CFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F0746D29FA546F002E7CFE /* SceneDelegate.swift */; };
 		E1F0747329FA546F002E7CFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F0747129FA546F002E7CFE /* Main.storyboard */; };
@@ -20,7 +21,6 @@
 		E1F074A429FA554D002E7CFE /* PlanetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F074A329FA554D002E7CFE /* PlanetTableViewCell.swift */; };
 		E1F074A629FA5559002E7CFE /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F074A529FA5559002E7CFE /* ViewControllerTests.swift */; };
 		E1F074A829FA555F002E7CFE /* PlanetTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F074A729FA555F002E7CFE /* PlanetTableViewCellTests.swift */; };
-		E1F0A23329FA598A000DFA85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F0A23229FA598A000DFA85 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E11D601729FA64F000477AA4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../../../Downloads/JPMorganTest-main/Test/ViewControllers/ViewController.swift"; sourceTree = "<group>"; };
 		E1F0746829FA546F002E7CFE /* JPMorganTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPMorganTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F0746B29FA546F002E7CFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1F0746D29FA546F002E7CFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +59,6 @@
 		E1F074A329FA554D002E7CFE /* PlanetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetTableViewCell.swift; sourceTree = "<group>"; };
 		E1F074A529FA5559002E7CFE /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		E1F074A729FA555F002E7CFE /* PlanetTableViewCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetTableViewCellTests.swift; sourceTree = "<group>"; };
-		E1F0A23229FA598A000DFA85 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../../Downloads/JPMorganTest-main/Test/ViewControllers/ViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,7 +177,7 @@
 		E1F074AB29FA56C3002E7CFE /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				E1F0A23229FA598A000DFA85 /* ViewController.swift */,
+				E11D601729FA64F000477AA4 /* ViewController.swift */,
 			);
 			name = ViewController;
 			path = "New Group";
@@ -314,10 +314,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1F0A23329FA598A000DFA85 /* ViewController.swift in Sources */,
 				E1F0749E29FA54D9002E7CFE /* NetworkManager.swift in Sources */,
 				E1F0746C29FA546F002E7CFE /* AppDelegate.swift in Sources */,
 				E1F0746E29FA546F002E7CFE /* SceneDelegate.swift in Sources */,
+				E11D601829FA64F000477AA4 /* ViewController.swift in Sources */,
 				E1F074A229FA553A002E7CFE /* Planet.swift in Sources */,
 				E1F074A429FA554D002E7CFE /* PlanetTableViewCell.swift in Sources */,
 			);
