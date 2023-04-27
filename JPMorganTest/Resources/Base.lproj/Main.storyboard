@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Xs4-GZ-sSY">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="hwJ-uy-3OB">
+            <objects>
+                <viewController id="Xs4-GZ-sSY" customClass="ViewController" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tej-jG-2w1">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="1sz-6w-9Xb">
+                                <rect key="frame" x="0.0" y="115" width="393" height="703"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Xs4-GZ-sSY" id="4Xi-iG-8OD"/>
+                                    <outlet property="delegate" destination="Xs4-GZ-sSY" id="ugM-tf-EqS"/>
+                                </connections>
+                            </tableView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="aHq-TQ-Ra6">
+                                <rect key="frame" x="0.0" y="59" width="393" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Xs4-GZ-sSY" id="Ght-Hh-Ib8"/>
+                                </connections>
+                            </searchBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="12h-6M-IrK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1sz-6w-9Xb" firstAttribute="top" secondItem="aHq-TQ-Ra6" secondAttribute="bottom" id="OmL-lj-Sja"/>
+                            <constraint firstItem="12h-6M-IrK" firstAttribute="trailing" secondItem="1sz-6w-9Xb" secondAttribute="trailing" id="U26-e0-O8B"/>
+                            <constraint firstItem="12h-6M-IrK" firstAttribute="trailing" secondItem="aHq-TQ-Ra6" secondAttribute="trailing" id="VwU-Cy-cMj"/>
+                            <constraint firstItem="aHq-TQ-Ra6" firstAttribute="leading" secondItem="Tej-jG-2w1" secondAttribute="leading" id="ZAN-57-lPw"/>
+                            <constraint firstItem="1sz-6w-9Xb" firstAttribute="leading" secondItem="12h-6M-IrK" secondAttribute="leading" id="b17-tV-D9n"/>
+                            <constraint firstItem="aHq-TQ-Ra6" firstAttribute="top" secondItem="12h-6M-IrK" secondAttribute="top" id="nd5-of-Y9y"/>
+                            <constraint firstItem="12h-6M-IrK" firstAttribute="bottom" secondItem="1sz-6w-9Xb" secondAttribute="bottom" id="yvp-hs-Dex"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="searchBar" destination="aHq-TQ-Ra6" id="Yyx-t0-fLV"/>
+                        <outlet property="tableView" destination="1sz-6w-9Xb" id="E1L-i1-d97"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="McP-NR-jnx" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-422" y="6"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
